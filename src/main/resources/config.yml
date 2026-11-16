@@ -1,0 +1,15 @@
+settings:
+  countdown-seconds: 10
+  lobby-teleport-on-join: true
+  # false = kostiumy pozostaja tylko kosmetycznym strojem w lobby.
+  # Ustaw true tylko jesli akceptujesz, ze gracze wchodza w nich do PvP.
+  costumes-in-pvp: false
+
+messages:
+  prefix: '&3&lSKYPVP &8» &f'
+  no-permission: '&cNie masz uprawnien.'
+  no-spawn: '&cSpawn nie jest jeszcze ustawiony.'
+  no-pvp: '&cSpawn PvP nie jest jeszcze ustawiony.'
+
+# Ustawienia i spawny aren zapisuja sie automatycznie pod ta sekcja.
+arenas: {}

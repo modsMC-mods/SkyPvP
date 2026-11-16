@@ -1,0 +1,33 @@
+name: SkyPvP
+version: 1.0.0
+main: pl.minestar.skypvp.Main
+api-version: '1.21'
+author: modsMC-mods
+description: Lobby, PvP, kostiumy oraz eventy 1v1 i FFA
+commands:
+  spawn:
+    description: Powrot na spawn lobby
+    permission: skypvp.use
+  setspawn:
+    description: Ustaw spawn lobby
+    permission: skypvp.admin
+  pvp:
+    description: Teleport na arene PvP
+    permission: skypvp.use
+  setpvp:
+    description: Ustaw spawn areny PvP
+    permission: skypvp.admin
+  kostiumy:
+    description: Otwiera menu kostiumow
+    aliases: [kostium, costumes]
+    permission: skypvp.use
+  event:
+    description: Zarzadzanie eventami 1v1 i FFA
+    aliases: [eventy]
+permissions:
+  skypvp.use:
+    description: Korzystanie z komend gracza
+    default: true
+  skypvp.admin:
+    description: Konfiguracja SkyPvP i zarzadzanie eventami
+    default: op
