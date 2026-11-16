@@ -1,0 +1,23 @@
+name: SkyPvPExtras
+version: 1.0.0
+main: pl.minestar.skypvp.extras.ExtrasPlugin
+api-version: '1.21'
+author: modsMC-mods
+description: Resource generators, sword kits Sharpness XI-XX, and armor sets
+commands:
+  kit:
+    description: Otrzymaj kit z mieczem Sharpness 11-20
+    permission: skypvp.use
+  sety:
+    description: Otworz menu setow zbroi
+    permission: skypvp.use
+  generator:
+    description: Ustaw i zarzadzaj generatorami surowcow
+    permission: skypvp.admin
+permissions:
+  skypvp.use:
+    description: Korzystanie z kitow i setow
+    default: true
+  skypvp.admin:
+    description: Konfiguracja generatorow
+    default: op
